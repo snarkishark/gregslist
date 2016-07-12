@@ -1,0 +1,118 @@
+*{
+	font-family:verdana,arial,sans-serif;
+	margin:0;
+}
+body{
+	width:100%;
+	margin:0;
+
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+/*gray header and fixed pos nav*/
+header{
+	font-size:1.5em;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:lightGray;
+	padding:10px;
+	text-align:right;
+
+
+}
+.roundedCorner{
+border:1px solid lightGray;
+border-radius:5px;
+padding:6px;
+}
+.logo{
+	text-align:left;
+	position:absolute;
+	left:10px;
+	top:20px;
+}
+nav{
+
+border:2px solid green;
+	padding: 0px 10px;
+}
+header ul{
+	padding:10px;
+}
+header li{
+	display:inline-block;
+}
+
+
+/*first normal flow element gives space to top*/
+input{
+	margin-top:50px;
+	margin-bottom:25px;/*also to element below*/
+}
+/*space to the left*/
+section{
+	margin-left:150px;
+	margin-top:50px;
+
+}
+
+/*display search results in a table*/
+/*table, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding:8px;
+
+}*/
+/*table,td{
+	border:1px solid lightGray;
+border-radius:5px;
+padding:6px;
+	border-collapse:collapse;
+}*/
+table{
+	border: 1px solid red;
+	border-radius:5px;
+
+}
+tr td:first-child{
+	border-right:1px solid gray;
+	border-collapse: collapse;
+	
+}
+tr td:last-child{
+	border-left:1px solid gray;
+}
+/*don't know why I need this, list is making itself too far right*/
+.results ul li{
+	margin-left:-50px;
+}
+/*give space between li and style them*/
+.results ul li{
+	margin-top:10px;
+	color:gray;
+	font-weight:bold;
+}
+/*add stars to all search results*/
+.results ul li::before {
+  content: "\f005";
+  font-family: FontAwesome;
+  color: lightGray;
+  font-size: 20px;
+  margin-right: 5px;
+}
+/*stars turn yellow on hover
+not quite what i want because selects whole li element, not just the star*/
+.results ul li:hover::before{
+	color:yellow;
+}
+/*name of search result is bigger and blue*/
+.result{
+	font-size:1.2em;
+	color:blue;
+}
