@@ -27,19 +27,18 @@ header{
 
 }
 .roundedCorner{
-border:1px solid lightGray;
-border-radius:5px;
-padding:6px;
+	border:1px solid lightGray;
+	border-radius:5px;
+	padding:6px;
 }
+/*should bring logo to left?*/
 .logo{
 	text-align:left;
-	position:absolute;
 	left:10px;
 	top:20px;
 }
 nav{
-
-border:2px solid green;
+	display:inline-block;
 	padding: 0px 10px;
 }
 header ul{
@@ -68,44 +67,44 @@ section{
     border-collapse: collapse;
     padding:8px;
 
-}*/
+    }*/
 /*table,td{
 	border:1px solid lightGray;
 border-radius:5px;
 padding:6px;
 	border-collapse:collapse;
-}*/
-table{
-	border: 1px solid red;
-	border-radius:5px;
+	}*/
+	table{
+		border: 1px solid red;
+		border-radius:5px;
 
-}
-tr td:first-child{
-	border-right:1px solid gray;
-	border-collapse: collapse;
-	
-}
-tr td:last-child{
-	border-left:1px solid gray;
-}
-/*don't know why I need this, list is making itself too far right*/
-.results ul li{
-	margin-left:-50px;
-}
-/*give space between li and style them*/
-.results ul li{
-	margin-top:10px;
-	color:gray;
-	font-weight:bold;
-}
-/*add stars to all search results*/
-.results ul li::before {
-  content: "\f005";
-  font-family: FontAwesome;
-  color: lightGray;
-  font-size: 20px;
-  margin-right: 5px;
-}
+	}
+	tr td:first-child{
+		border-right:1px solid gray;
+		border-collapse: collapse;
+		
+	}
+	tr td:last-child{
+		border-left:1px solid gray;
+	}
+	/*don't know why I need this, list is making itself too far right*/
+	.results ul li{
+		margin-left:-50px;
+	}
+	/*give space between li and style them*/
+	.results ul li{
+		margin-top:10px;
+		color:gray;
+		font-weight:bold;
+	}
+	/*add stars to all search results*/
+	.results ul li::before {
+		content: "\f005";
+		font-family: FontAwesome;
+		color: lightGray;
+		font-size: 20px;
+		margin-right: 5px;
+	}
 /*stars turn yellow on hover
 not quite what i want because selects whole li element, not just the star*/
 .results ul li:hover::before{

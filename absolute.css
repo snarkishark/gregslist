@@ -31,6 +31,7 @@ border:1px solid lightGray;
 border-radius:5px;
 padding:6px;
 }
+/*force logo to left with absolute pos*/
 .logo{
 	text-align:left;
 	position:absolute;
@@ -60,19 +61,6 @@ section{
 
 }
 
-/*display search results in a table*/
-/*table, td {
-    border: 1px solid gray;
-    border-collapse: collapse;
-    padding:8px;
-
-}*/
-/*table,td{
-	border:1px solid lightGray;
-border-radius:5px;
-padding:6px;
-	border-collapse:collapse;
-}*/
 table{
 	border: 1px solid red;
 	border-radius:5px;

@@ -8,36 +8,20 @@
 </head>
 
 <body>
-	<header>
-		
-		<span class="logo">Greg's List</span>
-		<nav>
-			<ul>
-				<li><a href="">Post</a></li>
-				<li><a href="">Account</a></li>
-			</ul>
-		</nav>
-	</header>
-
+	<h1>Hi Max,</h1>
 	<section>
-		<form>
-			<input type="" name="" placeholder="Search software jobs" class="roundedCorner">
-			<span class="roundedCorner fa fa-search" aria-hidden="true"></span>
-		</form>
-		<table class="roundedCorner">
-			<tr>
-				<td>< prev</td>
-				<td> 1 to 100 of 179 </td>
-				<td>next ></td>
-			</tr>
-		</table>
-	</section>
-	<section class="results">
-		<ul>
-			<li>June 22 <span class="result">Technical Project Manager</span> Midtown East</li>
-			<li>June 21 <span class="result">Frontend Developer</span> SoHo</li>
-			<li>June 20 <span class="result">Senior Python Developer/Cofounder</span> Flatiron</li>
-		</ul>
+	<ul>
+	<li>Because I found the header difficult, I did the assignment "Gregslist" three ways. The course said not to use floats except when wrapping text, but I can't figure out a solution with inline-block. <br>
+
+	<ul>
+		<li><a href="absolute.html">Absolute positioning on the logo</a></li>
+		<li><a href="float.html">Floating the nav to the right</a></li>
+		<li><a href="inline.html">Display inline-block</a>, which doesn't work.</li>
+	</ul>
+	</li>
+	<li>I am also having trouble with table borders (I know they should be gray, they are red sometimes because I was testing how they work). Can't get border-collapse to work with border-radius, so a gap appears between td borders and table.</li>
+	<li>Because the star appears on every search result I chose to use the ::before selector, but the star changes color when any part of the assocaited li element is hovered. Rather than copy in the star element on every li with a class to isolate its hover behavior I would choose to use jQuery in this situation. </li>
+	</ul>
 	</section>
 </body>
 </html>

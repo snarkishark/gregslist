@@ -32,10 +32,9 @@ border-radius:5px;
 padding:6px;
 }
 
-
+/*move nav to right side w float*/
 nav{
 	float:right;
-
 	clear:both;
 	text-align:right;
 	padding: 0px 10px;
